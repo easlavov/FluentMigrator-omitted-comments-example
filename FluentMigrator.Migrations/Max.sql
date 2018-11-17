@@ -1,4 +1,4 @@
-﻿/*This view is written by Jon Doe on 17-Nov-2018*/
+﻿/*This procedure is written by Jon Doe on 17-Nov-2018*/
 CREATE PROCEDURE [dbo].[Max]
     @First int,   
     @Second int   
