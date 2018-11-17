@@ -5,10 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Max.sql" />
     <None Remove="UserDefinedTables.sql" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Max.sql" />
     <EmbeddedResource Include="UserDefinedTables.sql" />
   </ItemGroup>
 
