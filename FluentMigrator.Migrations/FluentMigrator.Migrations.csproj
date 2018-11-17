@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="CurrentTime.sql" />
     <None Remove="Max.sql" />
     <None Remove="UserDefinedTables.sql" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="CurrentTime.sql" />
     <EmbeddedResource Include="Max.sql" />
     <EmbeddedResource Include="UserDefinedTables.sql" />
   </ItemGroup>
